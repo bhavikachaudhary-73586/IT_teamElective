@@ -196,5 +196,4 @@ The commands and concepts learned through these exercises will also be practiced
 ## 12. Conclusion
 
 This lab provides practical experience with Git and GitHub as collaborative version control tools. By completing the exercises together, both team members will develop an understanding of branching, committing, remote repositories, Pull Requests, code review, merging, and conflict resolution.
-
-The project demonstrates how developers can work independently on different branches while collaborating to maintain a shared codebase.
+conflict 
