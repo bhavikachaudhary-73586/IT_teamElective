@@ -158,6 +158,5 @@ The commands and concepts learned through these exercises will also be practiced
 
 ## 10. Conclusion
 
-Through this lab, we will learn how to use Git and GitHub when working with another person. We will practise making changes on separate branches, sharing our work, reviewing pull requests, and resolving merge conflicts.
-
-These skills will be useful for future programming projects where several people need to work on the same codebase.
+This lab provides practical experience with Git and GitHub as collaborative version control tools. By completing the exercises together, both team members will develop an understanding of branching, committing, remote repositories, Pull Requests, code review, merging, and conflict resolution.
+conflict 
