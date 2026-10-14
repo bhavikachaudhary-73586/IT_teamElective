@@ -2,10 +2,9 @@
 
 ## 1. Project Overview
 
-This repository was created for the Git Branching and Team Collaboration lab assignment. The purpose of this project is to gain practical experience with Git and GitHub, including version control, branching, commits, pull requests, merging, and resolving merge conflicts.
+This repository is for our Git Branching and Team Collaboration lab. We created it to learn how Git and GitHub are used when working on the same project with another person.
 
-Both team members will actively contribute to the repository and practice collaborating on a shared project.
-
+During this lab, we will work with branches, commits, and pull requests. We will also practice merging changes, resolving merge conflicts, and using Git from the terminal.
 ## 2. Team Members
 
 | Name | Student ID | GitHub Username          |
@@ -35,19 +34,7 @@ Both team members will actively contribute to the repository and practice collab
 - Visual Studio Code
 - [Learn Git Branching](https://learngitbranching.js.org/)
 
-## 5. Repository Structure
-
-```text
-git-branching-lab/
-├── README.md
-├── student1.txt
-├── student2.txt
-└── conflict.txt
-```
-
-The files `student1.txt` and `student2.txt` can be used to demonstrate individual contributions, while `conflict.txt` can be used to practice resolving merge conflicts.
-
-## 6. Branching Strategy
+## 5. Branching Strategy
 
 The team uses separate branches to work independently and safely integrate changes.
 
@@ -59,7 +46,7 @@ The team uses separate branches to work independently and safely integrate chang
 
 Each team member makes changes on their own branch, commits the changes, and pushes the branch to GitHub. Pull Requests are then created so that the other team member can review the changes before merging them into `main`.
 
-## 7. Git Commands Practiced
+## 6. Git Commands Practiced
 
 ### Clone the repository
 
@@ -77,7 +64,8 @@ git status
 ### Create and switch to a new branch
 
 ```bash
-git switch -c mi_branch
+git checkout -b mi_branch
+git checkout -b bc_branch
 ```
 
 ### Stage and commit changes
@@ -130,38 +118,30 @@ git log --oneline --graph --all
 git diff
 ```
 
-## 8. Pull Requests and Code Review
+## 7. Pull Requests and Code Review
 
-Pull Requests are used to propose and review changes before they are merged into the main branch.
+Pull requests allow us to check each other's work before adding it to the main branch.
 
-The workflow is:
+Our workflow is:
 
-1. Create a separate branch.
-2. Make changes and commit them.
-3. Push the branch to GitHub.
-4. Open a Pull Request targeting `main`.
-5. Ask the teammate to review the changes.
-6. Discuss or correct any issues found during the review.
-7. Merge the Pull Request after approval.
+- Create or switch to our own branch.
+- Make changes to the project.
+- Commit the changes.
+- Push the branch to GitHub.
+- Open a pull request targeting main.
+- Let the other team member review the changes.
+- Fix any issues if needed and merge the pull request.
 
-Both team members will create Pull Requests and review each other's contributions.
+This gives both team members a chance to contribute and understand each other's work.
 
-## 9. Merge Conflict Resolution
+## 8. Merge Conflict Resolution
 
-A merge conflict occurs when Git cannot automatically combine changes, for example, when two team members modify the same line of a file differently.
+A merge conflict can happen when two branches contain different changes to the same part of a file and Git cannot combine them automatically.
 
-To practice resolving conflicts:
+To practice resolving conflicts, we can make changes to the same line of a file on two separate branches. When we merge the branches, Git may ask us to resolve the conflict manually.
 
-1. Create a shared file named `conflict.txt`.
-2. Make different changes to the same line on separate branches.
-3. Commit and push the changes from both branches.
-4. Merge one branch into the other.
-5. Open the conflicted file and review Git's conflict markers.
-6. Edit the file to keep the agreed-upon final content.
-7. Remove the conflict markers.
-8. Stage, commit, and push the resolved changes.
-
-## 10. Learn Git Branching
+We then need to check both versions, decide what the final content should be, save the file, and commit the resolution.
+## 9. Learn Git Branching
 
 The team will use [Learn Git Branching](https://learngitbranching.js.org/) to practice Git concepts interactively.
 
@@ -176,24 +156,7 @@ Topics include:
 
 The commands and concepts learned through these exercises will also be practiced in the shared GitHub repository.
 
-## 11. Task Completion Checklist
-
-- [ ] Create GitHub accounts containing student IDs in the usernames.
-- [ ] Create a shared GitHub repository.
-- [ ] Give both team members access to the repository.
-- [ ] Clone the repository locally.
-- [ ] Create separate branches for both students.
-- [ ] Make and commit individual changes.
-- [ ] Push both branches to GitHub.
-- [ ] Pull or fetch changes made by the teammate.
-- [ ] Create Pull Requests.
-- [ ] Review the teammate's Pull Request.
-- [ ] Merge Pull Requests.
-- [ ] Create and resolve a merge conflict.
-- [ ] Complete Learn Git Branching exercises.
-- [ ] Practice the learned concepts in the shared repository.
-
-## 12. Conclusion
+## 10. Conclusion
 
 This lab provides practical experience with Git and GitHub as collaborative version control tools. By completing the exercises together, both team members will develop an understanding of branching, committing, remote repositories, Pull Requests, code review, merging, and conflict resolution.
 conflict 
